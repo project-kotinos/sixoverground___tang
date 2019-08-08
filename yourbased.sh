@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -ex
 export DEBIAN_FRONTEND=noninteractive
-apt-get update && apt-get install -y tzdata libfontconfig
+apt-get update && apt-get install -y tzdata libfontconfig libpq-dev
 gem install bundler -v 2.0.1
 # before_install
 
